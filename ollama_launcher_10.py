@@ -222,7 +222,7 @@ class OllamaLauncher(QtWidgets.QMainWindow):
         QtWidgets.QMessageBox.about(
             self, 
             "About Ollama Launcher", 
-            "Ollama Launcher GUI\nVersion 0.0.9\nBy Gary Robert Turcotte\n2025\nReleased under GPL 3.0"
+            "Ollama Launcher GUI\nVersion 1.0\nBy Gary Robert Turcotte\n2025\nReleased under GPL 3.0"
         )
 
     def show_install_ollama_dialog(self, force_show=False):
